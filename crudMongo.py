@@ -1,5 +1,5 @@
 import pymongo
-
+import pprint
 def menu():
     print("Selecciona una operación:")
     print("1. Insertar alumnos")
@@ -57,6 +57,11 @@ def insertar_documento(coleccion):
 
 def actualizar_documento(coleccion):
     rut = input("Ingrese el rut del alumno que desea actualizar: ")
+    #comprobar si el rut existe
+    if not coleccion.find_one({"rut": rut}): 
+        print("No se encontró ningún alumno con ese RUT.")
+        print("--------------------------------------------------------------------")
+        return
     nueva_direccion = input("Ingrese la nueva direccion: ")
     nueva_ciudad = input("Ingrese la nueva ciudad: ")
     # Buscar el documento por el nombre y actualizar la direccion y ciudad
