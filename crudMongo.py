@@ -77,6 +77,8 @@ def mostrar_documentos(coleccion):
     print("Documentos en la colección:")
     try:
         for documento in coleccion.find():
+            # quita el -id al imprimir los documentos
+            # documento.pop('_id')
             print(documento)
     except Exception as e:
         print("Error:", e)
