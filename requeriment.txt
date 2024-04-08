@@ -47,11 +47,13 @@ Ingrese el rut del alumno que desea actualizar: 19283746-9
 Ingrese la nueva direccion: Avda. Collao 2020  
 Ingrese la nueva ciudad: Talcahuano  
 Alumno actualizado correctamente.  
+
 - **Eliminar Alumno:** Permite eliminar un alumno de la base de datos usando el rut como identificador.   
 Ejemplo:   
 Ingrese el número de la operación que desea realizar: 3  
 Ingrese el rut del alumno que desea eliminar: 19283746-9  
 Alumno eliminado correctamente.  
+
 - **Mostrar Todos los Alumnos:** Muestra todos los alumnos almacenados en la base de datos.  
 Ingrese el número de la operación que desea realizar: 4  
 Documentos en la colección:  
@@ -67,28 +69,29 @@ Documentos en la colección:
 {'_id': ObjectId('66118e722710659489c44102'), 'nombre': 'Andres', 'rut': '81234567-8', 'edad': 29, 'direccion': 'Calle 10', 'ciudad': 'Chiguayante'}  
 {'_id': ObjectId('66118e722710659489c44103'), 'nombre': 'Cristian', 'rut': '72345678-9', 'edad': 30, 'direccion': 'Calle 11', 'ciudad': 'Talcahuano'}  
 {'_id': ObjectId('66118e722710659489c44104'), 'nombre': 'Javier', 'rut': '63456789-0', 'edad': 31, 'direccion': 'Calle 12', 'ciudad': 'Hualpén'}  
-{'_id': ObjectId('66118e722710659489c44105'), 'nombre': 'Gabriel', 'rut': '54567890-1', 'edad': 32, 'direccion': 'Calle 13', 'ciudad': 'Hualqui'}     
-- **Mostrar Alumnos por Ciudad:** Muestra solo los alumnos que pertenecen a una ciudad específica.   
+{'_id': ObjectId('66118e722710659489c44105'), 'nombre': 'Gabriel', 'rut': '54567890-1', 'edad': 32, 'direccion': 'Calle 13', 'ciudad': 'Hualqui'}    
 
-  Ingrese el número de la operación que desea realizar: 5  
-  Documentos en la colección:  
-  {'nombre': 'Juan', 'rut': '12345678-9', 'edad': 20, 'direccion': 'Calle 1', 'ciudad': 'Concepción'}  
-  {'nombre': 'Jose', 'rut': '45678901-2', 'edad': 23, 'direccion': 'Calle 4', 'ciudad': 'Concepción'}  
-  {'nombre': 'Luis', 'rut': '78901234-5', 'edad': 26, 'direccion': 'Calle 7', 'ciudad': 'Concepción'}  
+**Mostrar Alumnos por Ciudad:** Muestra solo los alumnos que pertenecen a una ciudad específica.   
+
+Ingrese el número de la operación que desea realizar: 5  
+Documentos en la colección:  
+{'nombre': 'Juan', 'rut': '12345678-9', 'edad': 20, 'direccion': 'Calle 1', 'ciudad': 'Concepción'}  
+{'nombre': 'Jose', 'rut': '45678901-2', 'edad': 23, 'direccion': 'Calle 4', 'ciudad': 'Concepción'}  
+{'nombre': 'Luis', 'rut': '78901234-5', 'edad': 26, 'direccion': 'Calle 7', 'ciudad': 'Concepción'}  
+
     
-      
-    Ingrese el número de la operación que desea realizar: 6  
-    Documentos en la colección:  
-    {'nombre': 'Pedro', 'rut': '23456789-0', 'edad': 21, 'direccion': 'Calle 2', 'ciudad': 'Talcahuano'}  
-    {'nombre': 'Carlos', 'rut': '56789012-3', 'edad': 24, 'direccion': 'Calle 5', 'ciudad': 'Talcahuano'}  
-    {'nombre': 'Jorge', 'rut': '89012345-6', 'edad': 27, 'direccion': 'Calle 8', 'ciudad': 'Talcahuano'}  
-    {'nombre': 'Cristian', 'rut': '72345678-9', 'edad': 30, 'direccion': 'Calle 11', 'ciudad': 'Talcahuano'}   
-          
-  Ingrese el número de la operación que desea realizar: 7  
-  Documentos en la colección:  
-  {'nombre': 'Diego', 'rut': '34567890-1', 'edad': 22, 'direccion': 'Calle 3', 'ciudad': 'San Pedro de la Paz'}  
-  {'nombre': 'Mario', 'rut': '67890123-4', 'edad': 25, 'direccion': 'Calle 6', 'ciudad': 'San Pedro de la Paz'}  
-  {'nombre': 'Felipe', 'rut': '90123456-7', 'edad': 28, 'direccion': 'Calle 9', 'ciudad': 'San Pedro de la Paz'}  
+Ingrese el número de la operación que desea realizar: 6  
+Documentos en la colección:  
+{'nombre': 'Pedro', 'rut': '23456789-0', 'edad': 21, 'direccion': 'Calle 2', 'ciudad': 'Talcahuano'}  
+{'nombre': 'Carlos', 'rut': '56789012-3', 'edad': 24, 'direccion': 'Calle 5', 'ciudad': 'Talcahuano'}  
+{'nombre': 'Jorge', 'rut': '89012345-6', 'edad': 27, 'direccion': 'Calle 8', 'ciudad': 'Talcahuano'}  
+{'nombre': 'Cristian', 'rut': '72345678-9', 'edad': 30, 'direccion': 'Calle 11', 'ciudad': 'Talcahuano'}   
+        
+Ingrese el número de la operación que desea realizar: 7  
+Documentos en la colección:  
+{'nombre': 'Diego', 'rut': '34567890-1', 'edad': 22, 'direccion': 'Calle 3', 'ciudad': 'San Pedro de la Paz'}  
+{'nombre': 'Mario', 'rut': '67890123-4', 'edad': 25, 'direccion': 'Calle 6', 'ciudad': 'San Pedro de la Paz'}  
+{'nombre': 'Felipe', 'rut': '90123456-7', 'edad': 28, 'direccion': 'Calle 9', 'ciudad': 'San Pedro de la Paz'}  
 
 ## Esquema de la base de datos
 
