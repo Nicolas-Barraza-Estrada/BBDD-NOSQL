@@ -1,5 +1,4 @@
-Guia 01 de BBDD-NOSQL
-# Programa de Gestión de Alumnos en MongoDB
+# Guia 01 de BBDD-NOSQL
 
 Este programa permite gestionar una lista de alumnos almacenada en una base de datos MongoDB. Proporciona opciones para insertar, actualizar, eliminar y mostrar alumnos, así como también para mostrar alumnos filtrados por ciudad.
 
@@ -10,23 +9,23 @@ Este programa permite gestionar una lista de alumnos almacenada en una base de d
 
 ## Instalación
 
-1. Clona o descarga este repositorio en tu máquina local.
-2. Asegúrate de tener MongoDB instalado y en ejecución en tu sistema.
-3. Instala las dependencias del programa ejecutando `pip install pymongo` en tu terminal.
+1. Clone o descargue este repositorio en tu máquina local.
+2. Asegúrese de tener MongoDB instalado y en ejecución en tu sistema.
+3. Instale las dependencias del programa ejecutando `pip install pymongo` en tu terminal.
 
 ## Configuaración Inicial
 
-1. Modifique en la linea 108 la dirección de su base de dato:   
+1. Modifique en la linea 108 el puerto de su base de dato:   
  ```cliente = pymongo.MongoClient("localhost", 27017)```
-2. Opcionalmente, puede crear la base de datos e importar la coleeción,modificando las lineas 111 y 112 según corresponda.  
+2. Opcionalmente, puede crear la base de datos e importar la colección `Guia01.lista_alumnos.json` ,y modifique las lineas 111 y 112 según corresponda.  
   `db = cliente["Guia01"]`  
   `coleccion = db["lista_alumnos"]`   
-- **Sin embargo, pymongo creara la base de datos y una colección vacia si esta no existe, y crudMongo.py la llenara con datos ficticios.**
+- **Sin embargo, crudMongo.py con pymongo crearan la base de datos y una colección vacia si esta no existe, y la llenara con datos ficticios.**
 
 ## Uso
 
-1. Ejecuta el programa ejecutando `python3 crudMongo.py` en tu terminal.
-2. Sigue las instrucciones en pantalla para realizar las operaciones deseadas.
+1. Ejecute el programa con el comando `python3 crudMongo.py` en su terminal o `python crudMongo.py` si esta en windows.
+2. Siga las instrucciones en pantalla para realizar las operaciones deseadas.
 3. Puedes seleccionar entre diferentes opciones del menú para interactuar con la base de datos de alumnos.
 
 ## Funcionalidades
@@ -48,12 +47,12 @@ Ingrese el rut del alumno que desea actualizar: 19283746-9
 Ingrese la nueva direccion: Avda. Collao 2020  
 Ingrese la nueva ciudad: Talcahuano  
 Alumno actualizado correctamente.  
-- **Eliminar Alumno:** Permite eliminar un alumno de la base de datos usando el rut como identificador. 
+- **Eliminar Alumno:** Permite eliminar un alumno de la base de datos usando el rut como identificador.   
 Ejemplo:   
 Ingrese el número de la operación que desea realizar: 3  
 Ingrese el rut del alumno que desea eliminar: 19283746-9  
 Alumno eliminado correctamente.  
-- **Mostrar Todos los Alumnos:** Muestra todos los alumnos almacenados en la base de datos.
+- **Mostrar Todos los Alumnos:** Muestra todos los alumnos almacenados en la base de datos.  
 Ingrese el número de la operación que desea realizar: 4  
 Documentos en la colección:  
 {'_id': ObjectId('66118e722710659489c440f9'), 'nombre': 'Juan', 'rut': '12345678-9', 'edad': 20, 'direccion': 'Calle 1', 'ciudad': 'Concepción'}  
@@ -68,29 +67,28 @@ Documentos en la colección:
 {'_id': ObjectId('66118e722710659489c44102'), 'nombre': 'Andres', 'rut': '81234567-8', 'edad': 29, 'direccion': 'Calle 10', 'ciudad': 'Chiguayante'}  
 {'_id': ObjectId('66118e722710659489c44103'), 'nombre': 'Cristian', 'rut': '72345678-9', 'edad': 30, 'direccion': 'Calle 11', 'ciudad': 'Talcahuano'}  
 {'_id': ObjectId('66118e722710659489c44104'), 'nombre': 'Javier', 'rut': '63456789-0', 'edad': 31, 'direccion': 'Calle 12', 'ciudad': 'Hualpén'}  
-{'_id': ObjectId('66118e722710659489c44105'), 'nombre': 'Gabriel', 'rut': '54567890-1', 'edad': 32, 'direccion': 'Calle 13', 'ciudad': 'Hualqui'}   
-- **Mostrar Alumnos por Ciudad:** Muestra solo los alumnos que pertenecen a una ciudad específica.  
-Ingrese el número de la operación que desea realizar: 5  
-Documentos en la colección:  
-{'_id': ObjectId('660eb0132772d5f2a44116a5'), 'nombre': 'Juan', 'rut': '12345678-9', 'edad': 20, 'direccion': 'Calle 1', 'ciudad': 'Concepción'}  
-{'_id': ObjectId('660eb0132772d5f2a44116a8'), 'nombre': 'Jose', 'rut': '45678901-2', 'edad': 23, 'direccion': 'Calle 4', 'ciudad': 'Concepción'}  
-{'_id': ObjectId('660eb0132772d5f2a44116ab'), 'nombre': 'Luis', 'rut': '78901234-5', 'edad': 26, 'direccion': 'Calle 7', 'ciudad': 'Concepción'}  
-  
+{'_id': ObjectId('66118e722710659489c44105'), 'nombre': 'Gabriel', 'rut': '54567890-1', 'edad': 32, 'direccion': 'Calle 13', 'ciudad': 'Hualqui'}     
+- **Mostrar Alumnos por Ciudad:** Muestra solo los alumnos que pertenecen a una ciudad específica.   
+
+  Ingrese el número de la operación que desea realizar: 5  
+  Documentos en la colección:  
+  {'nombre': 'Juan', 'rut': '12345678-9', 'edad': 20, 'direccion': 'Calle 1', 'ciudad': 'Concepción'}  
+  {'nombre': 'Jose', 'rut': '45678901-2', 'edad': 23, 'direccion': 'Calle 4', 'ciudad': 'Concepción'}  
+  {'nombre': 'Luis', 'rut': '78901234-5', 'edad': 26, 'direccion': 'Calle 7', 'ciudad': 'Concepción'}  
     
+      
     Ingrese el número de la operación que desea realizar: 6  
     Documentos en la colección:  
-    {'_id': ObjectId('660eb0132772d5f2a44116a6'), 'nombre': 'Pedro', 'rut': '23456789-0', 'edad': 21, 'direccion': 'Calle 2', 'ciudad': 'Talcahuano'}  
-    {'_id': ObjectId('660eb0132772d5f2a44116a9'), 'nombre': 'Carlos', 'rut': '56789012-3', 'edad': 24, 'direccion': 'Calle 5', 'ciudad': 'Talcahuano'}  
-    {'_id': ObjectId('660eb0132772d5f2a44116ac'), 'nombre': 'Jorge', 'rut': '89012345-6', 'edad': 27, 'direccion': 'Calle 8', 'ciudad': 'Talcahuano'}  
-    {'_id': ObjectId('660eb0132772d5f2a44116af'), 'nombre': 'Cristian', 'rut': '72345678-9', 'edad': 30, 'direccion': 'Calle 11', 'ciudad': 'Talcahuano'}  
-        
-    Ingrese el número de la operación que desea realizar: 7  
-Documentos en la colección:  
-{'_id': ObjectId('660eb0132772d5f2a44116a7'), 'nombre': 'Diego', 'rut': '34567890-1', 'edad': 22, 'direccion': 'Calle 3', 'ciudad': 'San Pedro de la Paz'}  
-{'_id': ObjectId('660eb0132772d5f2a44116aa'), 'nombre': 'Mario', 'rut': '67890123-4', 'edad': 25, 'direccion': 'Calle 6', 'ciudad': 'San Pedro de la Paz'}  
-{'_id': ObjectId('660eb0132772d5f2a44116ad'), 'nombre': 'Felipe', 'rut': '90123456-7', 'edad': 28, 'direccion': 'Calle 9', 'ciudad': 'San Pedro de la Paz'}  
-## Autor
+    {'nombre': 'Pedro', 'rut': '23456789-0', 'edad': 21, 'direccion': 'Calle 2', 'ciudad': 'Talcahuano'}  
+    {'nombre': 'Carlos', 'rut': '56789012-3', 'edad': 24, 'direccion': 'Calle 5', 'ciudad': 'Talcahuano'}  
+    {'nombre': 'Jorge', 'rut': '89012345-6', 'edad': 27, 'direccion': 'Calle 8', 'ciudad': 'Talcahuano'}  
+    {'nombre': 'Cristian', 'rut': '72345678-9', 'edad': 30, 'direccion': 'Calle 11', 'ciudad': 'Talcahuano'}   
+          
+  Ingrese el número de la operación que desea realizar: 7  
+  Documentos en la colección:  
+  {'nombre': 'Diego', 'rut': '34567890-1', 'edad': 22, 'direccion': 'Calle 3', 'ciudad': 'San Pedro de la Paz'}  
+  {'nombre': 'Mario', 'rut': '67890123-4', 'edad': 25, 'direccion': 'Calle 6', 'ciudad': 'San Pedro de la Paz'}  
+  {'nombre': 'Felipe', 'rut': '90123456-7', 'edad': 28, 'direccion': 'Calle 9', 'ciudad': 'San Pedro de la Paz'}  
 
-Nicolás Barraza
 
 

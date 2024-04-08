@@ -88,6 +88,7 @@ def mostrar_documentos_por_ciudad(coleccion, ciudad):
     print("Documentos en la colección:")
     try:
         for documento in coleccion.find({"ciudad": ciudad}):
+            documento.pop('_id')
             print(documento)
     except Exception as e:
         print("Error:", e)
