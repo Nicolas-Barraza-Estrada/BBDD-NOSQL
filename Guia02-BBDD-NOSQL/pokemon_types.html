@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Types</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <h1>Pokémon Types</h1>
+    <div id="chart"></div>
+    <script>
+        const data = [{"type": "water", "count": 186}, {"type": "normal", "count": 158}, {"type": "grass", "count": 152}, {"type": "flying", "count": 149}, {"type": "psychic", "count": 136}, {"type": "electric", "count": 110}, {"type": "dragon", "count": 107}, {"type": "bug", "count": 104}, {"type": "fire", "count": 103}, {"type": "poison", "count": 102}, {"type": "rock", "count": 102}, {"type": "fighting", "count": 100}, {"type": "dark", "count": 94}, {"type": "ground", "count": 93}, {"type": "ghost", "count": 92}, {"type": "steel", "count": 91}, {"type": "fairy", "count": 83}, {"type": "ice", "count": 66}];
+
+        const margin = { top: 20, right: 30, bottom: 40, left: 90 };
+        const width = 600 - margin.left - margin.right;
+        const height = 400 - margin.top - margin.bottom;
+
+        const svg = d3.select("#chart")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        const x = d3.scaleBand()
+            .domain(data.map(d => d.type))
+            .range([0, width])
+            .padding(0.1);
+
+        const y = d3.scaleLinear()
+            .domain([0, d3.max(data, d => d.count)])
+            .range([height, 0]);
+
+        svg.append("g")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x))
+            .selectAll("text")
+            .attr("transform", "rotate(-45)")
+            .style("text-anchor", "end");
+
+        svg.append("g")
+            .call(d3.axisLeft(y));
+
+        svg.selectAll(".bar")
+            .data(data)
+            .enter().append("rect")
+            .attr("class", "bar")
+            .attr("x", d => x(d.type))
+            .attr("y", d => y(d.count))
+            .attr("width", x.bandwidth())
+            .attr("height", d => height - y(d.count));
+    </script>
+</body>
+</html>
