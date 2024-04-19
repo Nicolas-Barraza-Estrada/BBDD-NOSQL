@@ -1,10 +1,9 @@
 import requests
 from pymongo import MongoClient
+from mongo_connection import connect_to_mongodb
 
-# Conexión a la base de datos MongoDB
-client = MongoClient('localhost', 28017)
-db = client['pokeapi']  # Nombre de la base de datos
-collection = db['pokemon']  # Nombre de la colección
+# Ejemplo de uso en un programa:
+db, collection = connect_to_mongodb()
 
 # URL base de la PokeAPI
 base_url = 'https://pokeapi.co/api/v2/'
