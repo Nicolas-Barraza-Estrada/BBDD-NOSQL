@@ -10,7 +10,7 @@
 
 1. En el archivo ***mongo_connection.py*** modifique en la linea 7 el puerto de su base de dato:   
  ```client = MongoClient('localhost', 28017)```
-2. Opcionalmente, puede crear la base de datos e importar la colección `all_pokemon.json` ,y modifique las lineas 8 y 9 según corresponda.  
+2. Opcionalmente, puede crear la base de datos e importar la colección `pokeapi.pokemon.json` ,y modifique las lineas 8 y 9 según corresponda.  
   `db = cliente["pokeapi"]`  
   `coleccion = db["pokemon"]`   
 - **Sin embargo, al ejecutar el comando `pokeApi.py`, pymongo crearan la base de datos y una colección vacia si esta no existe, luego procedera a descargar los 1302 pokemon.**
