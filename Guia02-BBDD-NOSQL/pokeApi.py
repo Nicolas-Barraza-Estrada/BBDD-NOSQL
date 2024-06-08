@@ -2,7 +2,6 @@ import requests
 from pymongo import MongoClient
 from mongo_connection import connect_to_mongodb
 
-# Ejemplo de uso en un programa:
 db, collection = connect_to_mongodb()
 
 # URL base de la PokeAPI
