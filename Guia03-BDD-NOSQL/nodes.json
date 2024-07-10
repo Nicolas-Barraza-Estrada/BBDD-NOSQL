@@ -1,0 +1,323 @@
+﻿[
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Usuario"
+      ],
+      "properties": {
+        "edad": 27,
+        "nombre": "Laura"
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Usuario"
+      ],
+      "properties": {
+        "edad": 24,
+        "nombre": "Pedro"
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 2,
+      "labels": [
+        "Usuario"
+      ],
+      "properties": {
+        "nombre": "Sofia",
+        "edad": 30
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:2"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "Usuario"
+      ],
+      "properties": {
+        "edad": 32,
+        "nombre": "Jorge"
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:3"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Usuario"
+      ],
+      "properties": {
+        "edad": 26,
+        "nombre": "Lucia"
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:4"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Cancion"
+      ],
+      "properties": {
+        "titulo": "Shape of You (Remix)",
+        "duracion": 263
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "Cancion"
+      ],
+      "properties": {
+        "duracion": 261,
+        "titulo": "Castle on the Hill"
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:6"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "Cancion"
+      ],
+      "properties": {
+        "duracion": 263,
+        "titulo": "Perfect",
+        "duración": 265
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Cancion"
+      ],
+      "properties": {
+        "duracion": 173,
+        "titulo": "Galway Girl"
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:8"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "Cancion"
+      ],
+      "properties": {
+        "duracion": 207,
+        "titulo": "Happier"
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:9"
+    }
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "Cancion"
+      ],
+      "properties": {
+        "duracion": 186,
+        "titulo": "New Man"
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:10"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "Cancion"
+      ],
+      "properties": {
+        "titulo": "Hearts Dont Break Around Here",
+        "duracion": 239
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:11"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Cancion"
+      ],
+      "properties": {
+        "duracion": 228,
+        "titulo": "What Do I Know?"
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:12"
+    }
+  },
+  {
+    "n": {
+      "identity": 13,
+      "labels": [
+        "Cancion"
+      ],
+      "properties": {
+        "titulo": "How Would You Feel (Paean)",
+        "duracion": 239
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:13"
+    }
+  },
+  {
+    "n": {
+      "identity": 14,
+      "labels": [
+        "Cancion"
+      ],
+      "properties": {
+        "duracion": 205,
+        "titulo": "Supermarket Flowers"
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:14"
+    }
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "Artista"
+      ],
+      "properties": {
+        "nombre": "Edward Sheeran"
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:15"
+    }
+  },
+  {
+    "n": {
+      "identity": 16,
+      "labels": [
+        "Artista"
+      ],
+      "properties": {
+        "nombre": "Adele"
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:16"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "Artista"
+      ],
+      "properties": {
+        "nombre": "Taylor Swift"
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 18,
+      "labels": [
+        "Artista"
+      ],
+      "properties": {
+        "nombre": "Drake"
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:18"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Artista"
+      ],
+      "properties": {
+        "nombre": "Bruno Mars"
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:19"
+    }
+  },
+  {
+    "n": {
+      "identity": 20,
+      "labels": [
+        "Álbum"
+      ],
+      "properties": {
+        "título": "Divide",
+        "año": 2018
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+    }
+  },
+  {
+    "n": {
+      "identity": 21,
+      "labels": [
+        "Álbum"
+      ],
+      "properties": {
+        "título": "25",
+        "año": 2015
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:21"
+    }
+  },
+  {
+    "n": {
+      "identity": 22,
+      "labels": [
+        "Álbum"
+      ],
+      "properties": {
+        "título": "1989",
+        "año": 2014
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:22"
+    }
+  },
+  {
+    "n": {
+      "identity": 23,
+      "labels": [
+        "Álbum"
+      ],
+      "properties": {
+        "título": "Views",
+        "año": 2016
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:23"
+    }
+  },
+  {
+    "n": {
+      "identity": 24,
+      "labels": [
+        "Álbum"
+      ],
+      "properties": {
+        "título": "24K Magic",
+        "año": 2016
+      },
+      "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:24"
+    }
+  }
+]

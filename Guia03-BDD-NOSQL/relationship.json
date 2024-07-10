@@ -1,0 +1,1615 @@
+﻿[
+  {
+    "p": {
+      "start": {
+        "identity": 9,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "duracion": 207,
+          "titulo": "Happier"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:9"
+      },
+      "end": {
+        "identity": 20,
+        "labels": [
+          "Álbum"
+        ],
+        "properties": {
+          "título": "Divide",
+          "año": 2018
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 9,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "duracion": 207,
+              "titulo": "Happier"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:9"
+          },
+          "relationship": {
+            "identity": 0,
+            "start": 9,
+            "end": 20,
+            "type": "PERTENECE_A",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:0",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:9",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          },
+          "end": {
+            "identity": 20,
+            "labels": [
+              "Álbum"
+            ],
+            "properties": {
+              "título": "Divide",
+              "año": 2018
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 34,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "edad": 22,
+          "nombre": "Luis"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:34"
+      },
+      "end": {
+        "identity": 19,
+        "labels": [
+          "Artista"
+        ],
+        "properties": {
+          "nombre": "Bruno Mars"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:19"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 34,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "edad": 22,
+              "nombre": "Luis"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:34"
+          },
+          "relationship": {
+            "identity": 1,
+            "start": 34,
+            "end": 19,
+            "type": "SIGUE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:1",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:34",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:19"
+          },
+          "end": {
+            "identity": 19,
+            "labels": [
+              "Artista"
+            ],
+            "properties": {
+              "nombre": "Bruno Mars"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:19"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 2,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "nombre": "Sofia",
+          "edad": 30
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:2"
+      },
+      "end": {
+        "identity": 19,
+        "labels": [
+          "Artista"
+        ],
+        "properties": {
+          "nombre": "Bruno Mars"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:19"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 2,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "nombre": "Sofia",
+              "edad": 30
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:2"
+          },
+          "relationship": {
+            "identity": 2,
+            "start": 2,
+            "end": 19,
+            "type": "SIGUE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:2",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:2",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:19"
+          },
+          "end": {
+            "identity": 19,
+            "labels": [
+              "Artista"
+            ],
+            "properties": {
+              "nombre": "Bruno Mars"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:19"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 2,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "nombre": "Sofia",
+          "edad": 30
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:2"
+      },
+      "end": {
+        "identity": 15,
+        "labels": [
+          "Artista"
+        ],
+        "properties": {
+          "nombre": "Edward Sheeran"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:15"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 2,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "nombre": "Sofia",
+              "edad": 30
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:2"
+          },
+          "relationship": {
+            "identity": 3,
+            "start": 2,
+            "end": 15,
+            "type": "SIGUE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:3",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:2",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:15"
+          },
+          "end": {
+            "identity": 15,
+            "labels": [
+              "Artista"
+            ],
+            "properties": {
+              "nombre": "Edward Sheeran"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:15"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 10,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "duracion": 186,
+          "titulo": "New Man"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:10"
+      },
+      "end": {
+        "identity": 20,
+        "labels": [
+          "Álbum"
+        ],
+        "properties": {
+          "título": "Divide",
+          "año": 2018
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 10,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "duracion": 186,
+              "titulo": "New Man"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:10"
+          },
+          "relationship": {
+            "identity": 4,
+            "start": 10,
+            "end": 20,
+            "type": "PERTENECE_A",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:4",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:10",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          },
+          "end": {
+            "identity": 20,
+            "labels": [
+              "Álbum"
+            ],
+            "properties": {
+              "título": "Divide",
+              "año": 2018
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 11,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "titulo": "Hearts Dont Break Around Here",
+          "duracion": 239
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:11"
+      },
+      "end": {
+        "identity": 20,
+        "labels": [
+          "Álbum"
+        ],
+        "properties": {
+          "título": "Divide",
+          "año": 2018
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 11,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "titulo": "Hearts Dont Break Around Here",
+              "duracion": 239
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:11"
+          },
+          "relationship": {
+            "identity": 5,
+            "start": 11,
+            "end": 20,
+            "type": "PERTENECE_A",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:5",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:11",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          },
+          "end": {
+            "identity": 20,
+            "labels": [
+              "Álbum"
+            ],
+            "properties": {
+              "título": "Divide",
+              "año": 2018
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 12,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "duracion": 228,
+          "titulo": "What Do I Know?"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:12"
+      },
+      "end": {
+        "identity": 20,
+        "labels": [
+          "Álbum"
+        ],
+        "properties": {
+          "título": "Divide",
+          "año": 2018
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 12,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "duracion": 228,
+              "titulo": "What Do I Know?"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:12"
+          },
+          "relationship": {
+            "identity": 6,
+            "start": 12,
+            "end": 20,
+            "type": "PERTENECE_A",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:6",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:12",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          },
+          "end": {
+            "identity": 20,
+            "labels": [
+              "Álbum"
+            ],
+            "properties": {
+              "título": "Divide",
+              "año": 2018
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 13,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "titulo": "How Would You Feel (Paean)",
+          "duracion": 239
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:13"
+      },
+      "end": {
+        "identity": 20,
+        "labels": [
+          "Álbum"
+        ],
+        "properties": {
+          "título": "Divide",
+          "año": 2018
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 13,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "titulo": "How Would You Feel (Paean)",
+              "duracion": 239
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:13"
+          },
+          "relationship": {
+            "identity": 7,
+            "start": 13,
+            "end": 20,
+            "type": "PERTENECE_A",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:7",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:13",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          },
+          "end": {
+            "identity": 20,
+            "labels": [
+              "Álbum"
+            ],
+            "properties": {
+              "título": "Divide",
+              "año": 2018
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 14,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "duracion": 205,
+          "titulo": "Supermarket Flowers"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:14"
+      },
+      "end": {
+        "identity": 20,
+        "labels": [
+          "Álbum"
+        ],
+        "properties": {
+          "título": "Divide",
+          "año": 2018
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 14,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "duracion": 205,
+              "titulo": "Supermarket Flowers"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:14"
+          },
+          "relationship": {
+            "identity": 8,
+            "start": 14,
+            "end": 20,
+            "type": "PERTENECE_A",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:8",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:14",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          },
+          "end": {
+            "identity": 20,
+            "labels": [
+              "Álbum"
+            ],
+            "properties": {
+              "título": "Divide",
+              "año": 2018
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 30,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "edad": 25,
+          "nombre": "Juan"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:30"
+      },
+      "end": {
+        "identity": 5,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "titulo": "Shape of You (Remix)",
+          "duracion": 263
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:5"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 30,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "edad": 25,
+              "nombre": "Juan"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:30"
+          },
+          "relationship": {
+            "identity": 10,
+            "start": 30,
+            "end": 5,
+            "type": "REPRODUCE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:10",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:30",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:5"
+          },
+          "end": {
+            "identity": 5,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "titulo": "Shape of You (Remix)",
+              "duracion": 263
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:5"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 31,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "edad": 30,
+          "nombre": "Maria"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:31"
+      },
+      "end": {
+        "identity": 6,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "duracion": 261,
+          "titulo": "Castle on the Hill"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:6"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 31,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "edad": 30,
+              "nombre": "Maria"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:31"
+          },
+          "relationship": {
+            "identity": 11,
+            "start": 31,
+            "end": 6,
+            "type": "REPRODUCE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:11",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:31",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:6"
+          },
+          "end": {
+            "identity": 6,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "duracion": 261,
+              "titulo": "Castle on the Hill"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:6"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 32,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "edad": 35,
+          "nombre": "Carlos"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:32"
+      },
+      "end": {
+        "identity": 7,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "duracion": 263,
+          "titulo": "Perfect",
+          "duración": 265
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:7"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 32,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "edad": 35,
+              "nombre": "Carlos"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:32"
+          },
+          "relationship": {
+            "identity": 12,
+            "start": 32,
+            "end": 7,
+            "type": "REPRODUCE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:12",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:32",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:7"
+          },
+          "end": {
+            "identity": 7,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "duracion": 263,
+              "titulo": "Perfect",
+              "duración": 265
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:7"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 33,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "edad": 28,
+          "nombre": "Ana"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:33"
+      },
+      "end": {
+        "identity": 8,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "duracion": 173,
+          "titulo": "Galway Girl"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:8"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 33,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "edad": 28,
+              "nombre": "Ana"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:33"
+          },
+          "relationship": {
+            "identity": 20,
+            "start": 33,
+            "end": 8,
+            "type": "REPRODUCE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:33",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:8"
+          },
+          "end": {
+            "identity": 8,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "duracion": 173,
+              "titulo": "Galway Girl"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:8"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 34,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "edad": 22,
+          "nombre": "Luis"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:34"
+      },
+      "end": {
+        "identity": 9,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "duracion": 207,
+          "titulo": "Happier"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:9"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 34,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "edad": 22,
+              "nombre": "Luis"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:34"
+          },
+          "relationship": {
+            "identity": 21,
+            "start": 34,
+            "end": 9,
+            "type": "REPRODUCE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:21",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:34",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:9"
+          },
+          "end": {
+            "identity": 9,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "duracion": 207,
+              "titulo": "Happier"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:9"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "edad": 27,
+          "nombre": "Laura"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:0"
+      },
+      "end": {
+        "identity": 10,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "duracion": 186,
+          "titulo": "New Man"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:10"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "edad": 27,
+              "nombre": "Laura"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:0"
+          },
+          "relationship": {
+            "identity": 22,
+            "start": 0,
+            "end": 10,
+            "type": "REPRODUCE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:22",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:0",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:10"
+          },
+          "end": {
+            "identity": 10,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "duracion": 186,
+              "titulo": "New Man"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:10"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "edad": 24,
+          "nombre": "Pedro"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:1"
+      },
+      "end": {
+        "identity": 11,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "titulo": "Hearts Dont Break Around Here",
+          "duracion": 239
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:11"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "edad": 24,
+              "nombre": "Pedro"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:1"
+          },
+          "relationship": {
+            "identity": 23,
+            "start": 1,
+            "end": 11,
+            "type": "REPRODUCE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:23",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:1",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:11"
+          },
+          "end": {
+            "identity": 11,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "titulo": "Hearts Dont Break Around Here",
+              "duracion": 239
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:11"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 2,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "nombre": "Sofia",
+          "edad": 30
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:2"
+      },
+      "end": {
+        "identity": 12,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "duracion": 228,
+          "titulo": "What Do I Know?"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:12"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 2,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "nombre": "Sofia",
+              "edad": 30
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:2"
+          },
+          "relationship": {
+            "identity": 24,
+            "start": 2,
+            "end": 12,
+            "type": "REPRODUCE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:24",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:2",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:12"
+          },
+          "end": {
+            "identity": 12,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "duracion": 228,
+              "titulo": "What Do I Know?"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:12"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 3,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "edad": 32,
+          "nombre": "Jorge"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:3"
+      },
+      "end": {
+        "identity": 13,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "titulo": "How Would You Feel (Paean)",
+          "duracion": 239
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:13"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 3,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "edad": 32,
+              "nombre": "Jorge"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:3"
+          },
+          "relationship": {
+            "identity": 26,
+            "start": 3,
+            "end": 13,
+            "type": "REPRODUCE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:26",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:3",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:13"
+          },
+          "end": {
+            "identity": 13,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "titulo": "How Would You Feel (Paean)",
+              "duracion": 239
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:13"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "edad": 26,
+          "nombre": "Lucia"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:4"
+      },
+      "end": {
+        "identity": 14,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "duracion": 205,
+          "titulo": "Supermarket Flowers"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:14"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "edad": 26,
+              "nombre": "Lucia"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:4"
+          },
+          "relationship": {
+            "identity": 27,
+            "start": 4,
+            "end": 14,
+            "type": "REPRODUCE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:27",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:4",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:14"
+          },
+          "end": {
+            "identity": 14,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "duracion": 205,
+              "titulo": "Supermarket Flowers"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:14"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 5,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "titulo": "Shape of You (Remix)",
+          "duracion": 263
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:5"
+      },
+      "end": {
+        "identity": 20,
+        "labels": [
+          "Álbum"
+        ],
+        "properties": {
+          "título": "Divide",
+          "año": 2018
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "titulo": "Shape of You (Remix)",
+              "duracion": 263
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:5"
+          },
+          "relationship": {
+            "identity": 28,
+            "start": 5,
+            "end": 20,
+            "type": "PERTENECE_A",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:28",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:5",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          },
+          "end": {
+            "identity": 20,
+            "labels": [
+              "Álbum"
+            ],
+            "properties": {
+              "título": "Divide",
+              "año": 2018
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6,
+        "labels": [
+          "Cancion"
+        ],
+        "properties": {
+          "duracion": 261,
+          "titulo": "Castle on the Hill"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:6"
+      },
+      "end": {
+        "identity": 20,
+        "labels": [
+          "Álbum"
+        ],
+        "properties": {
+          "título": "Divide",
+          "año": 2018
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "Cancion"
+            ],
+            "properties": {
+              "duracion": 261,
+              "titulo": "Castle on the Hill"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:6"
+          },
+          "relationship": {
+            "identity": 29,
+            "start": 6,
+            "end": 20,
+            "type": "PERTENECE_A",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:29",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:6",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          },
+          "end": {
+            "identity": 20,
+            "labels": [
+              "Álbum"
+            ],
+            "properties": {
+              "título": "Divide",
+              "año": 2018
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:20"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 30,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "edad": 25,
+          "nombre": "Juan"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:30"
+      },
+      "end": {
+        "identity": 15,
+        "labels": [
+          "Artista"
+        ],
+        "properties": {
+          "nombre": "Edward Sheeran"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:15"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 30,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "edad": 25,
+              "nombre": "Juan"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:30"
+          },
+          "relationship": {
+            "identity": 31,
+            "start": 30,
+            "end": 15,
+            "type": "SIGUE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:31",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:30",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:15"
+          },
+          "end": {
+            "identity": 15,
+            "labels": [
+              "Artista"
+            ],
+            "properties": {
+              "nombre": "Edward Sheeran"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:15"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 30,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "edad": 25,
+          "nombre": "Juan"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:30"
+      },
+      "end": {
+        "identity": 16,
+        "labels": [
+          "Artista"
+        ],
+        "properties": {
+          "nombre": "Adele"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:16"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 30,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "edad": 25,
+              "nombre": "Juan"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:30"
+          },
+          "relationship": {
+            "identity": 32,
+            "start": 30,
+            "end": 16,
+            "type": "SIGUE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:32",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:30",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:16"
+          },
+          "end": {
+            "identity": 16,
+            "labels": [
+              "Artista"
+            ],
+            "properties": {
+              "nombre": "Adele"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:16"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 31,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "edad": 30,
+          "nombre": "Maria"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:31"
+      },
+      "end": {
+        "identity": 16,
+        "labels": [
+          "Artista"
+        ],
+        "properties": {
+          "nombre": "Adele"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:16"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 31,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "edad": 30,
+              "nombre": "Maria"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:31"
+          },
+          "relationship": {
+            "identity": 33,
+            "start": 31,
+            "end": 16,
+            "type": "SIGUE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:33",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:31",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:16"
+          },
+          "end": {
+            "identity": 16,
+            "labels": [
+              "Artista"
+            ],
+            "properties": {
+              "nombre": "Adele"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:16"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 31,
+        "labels": [
+          "Usuario"
+        ],
+        "properties": {
+          "edad": 30,
+          "nombre": "Maria"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:31"
+      },
+      "end": {
+        "identity": 18,
+        "labels": [
+          "Artista"
+        ],
+        "properties": {
+          "nombre": "Drake"
+        },
+        "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:18"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 31,
+            "labels": [
+              "Usuario"
+            ],
+            "properties": {
+              "edad": 30,
+              "nombre": "Maria"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:31"
+          },
+          "relationship": {
+            "identity": 34,
+            "start": 31,
+            "end": 18,
+            "type": "SIGUE",
+            "properties": {
+
+            },
+            "elementId": "5:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:34",
+            "startNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:31",
+            "endNodeElementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:18"
+          },
+          "end": {
+            "identity": 18,
+            "labels": [
+              "Artista"
+            ],
+            "properties": {
+              "nombre": "Drake"
+            },
+            "elementId": "4:4599f8d0-8441-4c9d-ba7d-0063e60f8de8:18"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]

@@ -1,4 +1,8 @@
 ycdh6aTgFxfT9egXuqVoZM7x_YSaa04wBmIsen6JRXE
+LOAD CSV WITH HEADERS FROM 'http://localhost:11001/project-2ffa1662-0b11-4da0-a228-2f7a729a71da/nodes.csv' AS line
+CREATE (:PROTEIN {nodeId: line.nodeId, name:line.name, label:line.LABEL});
+
+
 * import nodes and relationships. with neo4j user:
 
 $ neo4j-admin import --nodes=nodes.csv --relationships=relations.csv
