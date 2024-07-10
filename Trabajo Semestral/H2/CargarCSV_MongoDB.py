@@ -38,8 +38,10 @@ def process_csv(file_path):
             )
 
         # Obtener referencias a `countries` y `networks`
-        countries_dict = {country['MCC']: db.countries.find_one({"MCC": country['MCC']})['_id'] for _, country in countries.iterrows()}
-        networks_dict = {(network['MCC'], network['MNC']): db.networks.find_one({"MCC": network['MCC'], "MNC": network['MNC']})['_id'] for _, network in networks.iterrows()}
+        countries_dict = {country['MCC']: db.countries.find_one
+                          ({"MCC": country['MCC']})['_id'] for _, country in countries.iterrows()}
+        networks_dict = {(network['MCC'], network['MNC']): db.networks.find_one(
+            {"MCC": network['MCC'], "MNC": network['MNC']})['_id'] for _, network in networks.iterrows()}
 
         # Procesar cellTowers con referencias
         cell_towers = []
