@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 
 client = MongoClient('mongodb://localhost:27017/')
 db = client['Trabajo_Semestral_Oceania']
-
+# no va
 # Calcula la fecha de hace un año
 one_year_ago = datetime.now() - timedelta(days=(365*1))
 one_year_ago_iso = one_year_ago.isoformat()

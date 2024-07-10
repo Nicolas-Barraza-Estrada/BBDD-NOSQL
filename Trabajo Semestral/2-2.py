@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 
 client = MongoClient('mongodb://localhost:27017/')
 db = client['Trabajo_Semestral_Oceania']
-
+# no va
 pipeline = [
     # Añadir un campo combinado de MCC y MNC en cellTowers
     {
