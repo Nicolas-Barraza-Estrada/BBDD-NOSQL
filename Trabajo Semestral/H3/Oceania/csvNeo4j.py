@@ -41,7 +41,7 @@ def load_data(file_path):
                 session.write_transaction(create_cell_tower_with_relationships, row)
 
 # Ruta al archivo CSV
-file_path = 'Trabajo_Semestral_Oceania.cellTowers.csv'
+file_path = 'Trabajo_Semestral_South_America.cellTowers.csv'
 
 # Cargar los datos
 load_data(file_path)
