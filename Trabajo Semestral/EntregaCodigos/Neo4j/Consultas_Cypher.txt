@@ -1,4 +1,6 @@
-
+////////////////////////////////////////////////////////////////////////////
+// La carga de torres se hizo desde Python, los demas desde Neo4j Desktop //
+////////////////////////////////////////////////////////////////////////////
 LOAD CSV WITH HEADERS FROM 'file:///countries.csv' AS row
 MERGE (c:Country {MCC: row.MCC})
 SET c.Country = row.Country,
@@ -16,7 +18,7 @@ SET n.Network = row.Network;
 ¿En qué países se han añadido la mayor y menor cantidad de torres en el último año?¿De qué tipo fueron?
 
 
-// Primero convertir las fechas almacenadas como strings a datetime
+// Primero convertir las fechas almacenadas como strings(ISO 6801) a datetime
 MATCH (t:CellTower)
 SET t.Created = datetime(t.Created),
     t.Updated = datetime(t.Updated)

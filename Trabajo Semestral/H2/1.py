@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 client = MongoClient('mongodb://localhost:27017/')
 db = client['Trabajo_Semestral_South_America']
 
-# Consulta para obtener la proporción de cada tipo de red por país en Latinoamérica
+# Consulta para obtener la proporción de cada tipo de red por país en America del Sur
 pipeline = [
     {
         "$lookup": {

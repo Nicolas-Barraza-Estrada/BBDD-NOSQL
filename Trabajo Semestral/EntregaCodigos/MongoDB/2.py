@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 client = MongoClient('mongodb://localhost:27017/')
 db = client['Trabajo_Semestral_South_America']
 
-# cantidad de operadores por pais
+#Obitiene la cantidad de operadores por pais
 pipeline = [
     {
         "$lookup": {

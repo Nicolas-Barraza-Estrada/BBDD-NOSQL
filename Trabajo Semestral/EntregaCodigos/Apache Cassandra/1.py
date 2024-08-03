@@ -12,7 +12,7 @@ SELECT c.Country, t.Radio, COUNT(*) AS count,
         AS proportion
 FROM cellTowers t
 JOIN countries c ON t.MCC = c.MCC
-WHERE c.Continent = 'Oceania'
+WHERE c.Continent = 'South America'
 GROUP BY c.Country, t.Radio;
 """
 
